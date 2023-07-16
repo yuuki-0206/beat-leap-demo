@@ -1,0 +1,31 @@
+@media only screen and (max-width: 900px) {
+  #info-button {
+    top: 10px;
+    right: 5px;
+    font-size: 30px;
+  }
+
+  #popup-content {
+    width: 90%;
+    max-height: 80%;
+    padding: 10px;
+  }
+
+  #popup-content h2 {
+    font-size: 20px;
+  }
+
+  #popup-content h3,
+  #popup-content p {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  #close-button {
+    font-size: 20px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}

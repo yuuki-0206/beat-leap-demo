@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+#gameContainer {
+  background-color: #7118f4;
+  border: 2px solid #7118f4;
+  border-radius: 30px;
+  height: 100px;
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.hitArea {
+  background-color: #ffffff;
+  height: 50px;
+  width: 39.5px;
+  position: absolute;
+  right: 5%;
+  top: 23%;
+  opacity: 0.5;
+  border-radius: 6px;
+}
+
+.hitAreaGlow {
+  background-color: #ff0000;
+}
+
+.note {
+  background-image: url("notes.png");
+  background-size: cover;
+  width: 30px;
+  height: 41.5px;
+  position: absolute;
+  top: 28%;
+}
+
+#gameButton {
+  background-color: #7118f4;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  user-select: none;
+}
+
+#gameButton:active {
+  transform: scale(0.9);
+}
+
+#score {
+  color: #7118f4;
+  font-size: 24px;
+}
+
+.gameBox {
+  border-radius: 60px;
+  padding: 60px;
+  background-color: #ffffff;
+  position: relative;
+  top: 100px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#feedback {
+  position: absolute;
+  right: 102px;
+  top: 62px;
+  color: #ffff;
+}
